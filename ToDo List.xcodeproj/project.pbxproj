@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16E31F962CEF2BF300803966 /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 16E31F952CEF2BF300803966 /* TestPlan.xctestplan */; };
+		16F608ED2CEF44AF00EF98CB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F608EC2CEF44AF00EF98CB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +25,25 @@
 		16D928BF2CEB271700C9D92A /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E31F952CEF2BF300803966 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		16E425682CEF213000E17E9D /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F608EC2CEF44AF00EF98CB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		16F608EF2CEF466100EF98CB /* Exceptions for "ToDo List" folder in "ToDo List" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"ToDo-List-Info.plist",
+			);
+			target = 16D928BE2CEB271700C9D92A /* ToDo List */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		16D928C12CEB271700C9D92A /* ToDo List */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				16F608EF2CEF466100EF98CB /* Exceptions for "ToDo List" folder in "ToDo List" target */,
+			);
 			path = "ToDo List";
 			sourceTree = "<group>";
 		};
@@ -60,6 +75,7 @@
 		16D928B62CEB271700C9D92A = {
 			isa = PBXGroup;
 			children = (
+				16F608EC2CEF44AF00EF98CB /* Launch Screen.storyboard */,
 				16E31F952CEF2BF300803966 /* TestPlan.xctestplan */,
 				16D928C12CEB271700C9D92A /* ToDo List */,
 				16E425692CEF213000E17E9D /* ToDoListTests */,
@@ -168,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F608ED2CEF44AF00EF98CB /* Launch Screen.storyboard in Resources */,
 				16E31F962CEF2BF300803966 /* TestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +351,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ToDo-List-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ToDo List";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -342,6 +360,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
@@ -377,6 +396,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ToDo-List-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ToDo List";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -385,6 +405,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
