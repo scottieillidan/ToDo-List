@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class ViewModel: ObservableObject {
+final class ViewModel: ObservableObject {
             
     @Published var tasks: [TaskEntity] = []
     

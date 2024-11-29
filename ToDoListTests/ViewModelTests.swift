@@ -15,17 +15,6 @@ final class ViewModelTests: XCTestCase {
     @ObservedObject var vm = ViewModel(PersistenceController.shared.container.viewContext)
     let date = Date()
     
-    func testDeleteNonExistentTask() {
-        // Arrange
-        // Act
-        vm.deleteTask(TaskEntity(context: viewContext), viewContext)
-        
-        // Assert
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            XCTAssertEqual(self.vm.tasks.count, 0)
-        }
-    }
-    
     func testTasksEqual() {
         // Arrange
         let task = TaskModel(

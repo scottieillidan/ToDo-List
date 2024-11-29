@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DummyJsonModel: Codable {
+struct DummyJsonModel: Decodable {
     var todos: [DummyJsonTodoModel]
     var total: Int
     var skip: Int
